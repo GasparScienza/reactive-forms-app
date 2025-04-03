@@ -6,12 +6,12 @@ export const authRoutes: Routes = [
     path: '',
     children: [
       {
-        path: 'sign-Up',
+        path: 'sign-up',
         component: RegisterPageComponent,
       },
       {
         path: '**',
-        redirectTo: 'sign-ip',
+        redirectTo: 'sign-up',
       },
     ],
   },
